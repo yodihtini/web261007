@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #14 1e30, #243b55);
+    background: linear-gradient(135deg, #141e30, #243b55);
     min-height: 100vh;
     box-sizing: border-box;
     margin: 0;
@@ -7,13 +7,11 @@ body {
     font-family: "Noto Sans KR", sans-serif;
 }
 
-
 card {
     width: 260px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,
-            0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     background: #fff;
     position: relative;
     transition: transform 0.3s, box -shadow 0.3s;
@@ -46,7 +44,6 @@ card:hover {
     box-shadow: 0 12px 32px rgba(255, 1 93, 7, 0.6);
 }
 
-h1,
-footer {
+h1, footer {
     color: #fff;
 }
